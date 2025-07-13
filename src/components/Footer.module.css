@@ -1,0 +1,24 @@
+.container {
+  padding: 86px 0;
+
+  background-color: var(--color-teal);
+  color: var(--color-white);
+}
+
+.container a {
+  color: var(--color-white);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
