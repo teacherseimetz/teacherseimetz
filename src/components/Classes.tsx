@@ -42,7 +42,7 @@ export function Classes() {
           <li className="flex flex-col items-center gap-2">
             <figure className="relative size-16">
               <Image
-                src="/images/calendar.png"
+                src="/teacherseimetz/images/calendar.png"
                 alt="Imagem de um calendário"
                 objectFit="contain"
                 fill
@@ -53,7 +53,7 @@ export function Classes() {
           <li className="flex flex-col items-center gap-2">
             <figure className="relative size-16">
               <Image
-                src="/images/microphone.png"
+                src="/teacherseimetz/images/microphone.png"
                 alt="Imagem de um microfone"
                 objectFit="contain"
                 fill
@@ -64,7 +64,7 @@ export function Classes() {
           <li className="flex flex-col items-center gap-2">
             <figure className="relative size-16">
               <Image
-                src="/images/notes.png"
+                src="/teacherseimetz/images/notes.png"
                 alt="Imagem de um bloco de notas"
                 objectFit="contain"
                 fill
@@ -75,7 +75,7 @@ export function Classes() {
           <li className="flex flex-col items-center gap-2">
             <figure className="relative size-16">
               <Image
-                src="/images/user-star.png"
+                src="/teacherseimetz/images/user-star.png"
                 alt="Imagem de um avatar de uma pessoa, com uma estrela ao lado direito"
                 objectFit="contain"
                 fill

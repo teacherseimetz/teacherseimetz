@@ -16,7 +16,7 @@ export function Investment() {
           <figure className="shrink-0 h-96 w-96 relative">
             <Image
               className="rounded-3xl"
-              src="/images/smiling.png"
+              src="/teacherseimetz/images/smiling.png"
               alt="Foto da professora Amanda Seimetz sorrindo, com uma blusa verde e o fundo desfocado"
               objectFit="cover"
               fill

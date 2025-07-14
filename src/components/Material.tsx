@@ -23,7 +23,7 @@ export function Material() {
             <article className="flex flex-col items-center gap-2">
               <figure className="relative size-48">
                 <Image
-                  src="/images/books.png"
+                  src="/teacherseimetz/images/books.png"
                   alt="Imagem mostrando 4 edições do livro Grammar in Context"
                   objectFit="contain"
                   fill
@@ -43,7 +43,7 @@ export function Material() {
             <article className="flex flex-col items-center gap-2">
               <figure className="relative size-48">
                 <Image
-                  src="/images/material.png"
+                  src="/teacherseimetz/images/material.png"
                   alt="Imagem mostrando 6 materiais de aula"
                   objectFit="cover"
                   fill
@@ -63,7 +63,7 @@ export function Material() {
             <article className="flex flex-col items-center gap-2">
               <figure className="relative size-48">
                 <Image
-                  src="/images/elli.png"
+                  src="/teacherseimetz/images/elli.png"
                   alt="Imagem mostrando o site elli em um computador"
                   objectFit="contain"
                   fill

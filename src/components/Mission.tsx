@@ -15,7 +15,7 @@ export function Mission() {
           <figure className="shrink-0 h-96 w-96 relative">
             <Image
               className="rounded-3xl"
-              src="/images/student.jpg"
+              src="/teacherseimetz/images/student.jpg"
               alt="Imagem de uma estudante de inglês tomando uma xícara de café enquanto utiliza um notebook no seu colo"
               objectFit="cover"
               fill
