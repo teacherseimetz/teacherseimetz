@@ -1,8 +1,8 @@
 build:
 	npm run build
 
-develop:
-	num run dev
+dev:
+	npm run dev
 
 publish: build
 	git checkout public
