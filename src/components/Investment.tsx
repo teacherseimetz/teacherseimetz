@@ -60,7 +60,9 @@ export function Investment() {
           </div>
         </section>
         <div className="flex justify-center mb-10">
-          <ButtonLink href="#TODO">Quero fazer aulas de inglês</ButtonLink>
+          <ButtonLink href="https://teacherseimetz.notion.site/12ab3dba55da80508dd1eb23da886b42?pvs=105">
+            Quero fazer aulas de inglês
+          </ButtonLink>
         </div>
       </Wrapper>
     </section>

@@ -39,22 +39,22 @@ export function Menu() {
     <nav ref={navRef} className="p-8 lg:p-0 absolute w-full top-0 left-0">
       <ul className={listClassNames}>
         <li>
-          <a href="#">home</a>
+          <a className="block" href="#">home</a>
         </li>
         <li>
-          <a href="#sobre">sobre mim</a>
+          <a className="block" href="#sobre">sobre mim</a>
         </li>
         <li>
-          <a href="#aulas">aulas</a>
+          <a className="block" href="#aulas">aulas</a>
         </li>
         <li>
-          <a href="#material">material</a>
+          <a className="block" href="#material">material</a>
         </li>
         <li>
-          <a href="#missao">missão</a>
+          <a className="block" href="#missao">missão</a>
         </li>
         <li>
-          <a href="#investimento">investimento</a>
+          <a className="block" href="#investimento">investimento</a>
         </li>
       </ul>
       <button className="lg:hidden" onClick={toggleMenu}>

@@ -5,7 +5,26 @@ type Props = React.AnchorHTMLAttributes<HTMLAnchorElement> & {
 };
 
 export const ButtonLink = ({ children, inverse, ...props }: Props) => {
-  const classNames = [styles.button]
+  const classNames = [
+    "bg-white",
+    "text-dark-green",
+    "font-bold",
+    "relative",
+    "p-2",
+    "px-8",
+    "items-center",
+    "justify-center",
+    "overflow-hidden",
+    "rounded-3xl",
+    "border",
+    "border-dark-green",
+    "transition-all",
+    "active:translate-y-[2px]",
+    "shadow-dark-green",
+    "[box-shadow:0px_2px_1px]",
+    "active:shadow-none",
+    "text-center",
+  ]
     .concat(inverse ? styles.inverse : [])
     .join(" ");
 

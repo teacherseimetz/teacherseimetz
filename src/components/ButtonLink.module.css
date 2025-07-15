@@ -9,11 +9,6 @@
   transition: all .2s linear;
 }
 
-.inverse {
-  background-color: var(--color-white);
-  color: var(--color-teal);
-}
-
 .button:hover {
   background-color: var(--color-dark-green);
   color: var(--color-white);
