@@ -29,6 +29,8 @@ export function Menu() {
     "lg:opacity-100",
   ].flatMap(x => x).join(" ");
 
+  const strokeColor = isOpen ? "stroke-dark-green" : "stroke-white";
+
   const navRef = useRef<HTMLElement>(null);
 
   useClickOutside(navRef, () => {
@@ -36,7 +38,7 @@ export function Menu() {
   });
 
   return (
-    <nav ref={navRef} className="p-8 lg:p-0 absolute w-full top-0 left-0 z-1">
+    <nav ref={navRef} className="p-8 lg:p-0 absolute w-full top-0 left-0 z-2">
       <ul className={listClassNames}>
         <li>
           <a className="block" href="#">home</a>
@@ -67,19 +69,19 @@ export function Menu() {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            className="stroke-white"
+            className={strokeColor}
             d="M4 7L7 7M20 7L11 7"
             strokeWidth="1.5"
             strokeLinecap="round"
           />
           <path
-            className="stroke-white"
+            className={strokeColor}
             d="M20 17H17M4 17L13 17"
             strokeWidth="1.5"
             strokeLinecap="round"
           />
           <path
-            className="stroke-white"
+            className={strokeColor}
             d="M4 12H7L20 12"
             stroke="#1C274C"
             strokeWidth="1.5"

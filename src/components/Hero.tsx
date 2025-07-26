@@ -14,7 +14,7 @@ export function Hero() {
       <Wrapper className={styles.wrapper}>
         <h1 className="flex flex-col gap-2">
           <span>
-            <Logo className="w-100" />
+            <Logo className="max-w-100 md:w-100" />
             <VisuallyHidden>Amanda Seimetz</VisuallyHidden>
           </span>
           <span className="lowercase text-lime w-75">
@@ -24,17 +24,24 @@ export function Hero() {
         </h1>
         <div className={styles.links}>
           <ButtonLink
-            href="https://teacherseimetz.notion.site/12ab3dba55da80508dd1eb23da886b42?pvs=105"
+            href="#aulas"
             inverse
           >
-            Quero fazer aulas de inglês
+            Aulas de Inglês
           </ButtonLink>
           <ButtonLink
-            href="https://instagram.com/teacherseimetz"
+            href="#lessonplans"
             rel="noreferrer noopener"
             inverse
           >
-            Insta @teacherseimetz
+            Lesson plans
+          </ButtonLink>
+          <ButtonLink
+            href="#eventos"
+            rel="noreferrer noopener"
+            inverse
+          >
+            Eventos
           </ButtonLink>
         </div>
       </Wrapper>
