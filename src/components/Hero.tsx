@@ -5,15 +5,22 @@ import { VisuallyHidden } from "./VisuallyHidden";
 import { Wrapper } from "./Wrapper";
 
 export function Hero() {
+  const backgroundClassNames = ["bg-dark-green", "text-white", "mb-10"]
+    .concat(styles.background)
+    .join(" ");
+
   return (
-    <section className="bg-linear-to-r from-teal to-lilac text-white mb-10">
+    <section className={backgroundClassNames}>
       <Wrapper className={styles.wrapper}>
         <h1 className="flex flex-col gap-2">
           <span>
-            <Logo />
+            <Logo className="w-100" />
             <VisuallyHidden>Amanda Seimetz</VisuallyHidden>
           </span>
-          <span className="uppercase">Professora particular de inglês</span>
+          <span className="lowercase text-lime w-75">
+            Professora particular de Inglês & criadora de conteúdo para
+            professores
+          </span>
         </h1>
         <div className={styles.links}>
           <ButtonLink

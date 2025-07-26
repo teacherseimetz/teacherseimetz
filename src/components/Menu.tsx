@@ -36,7 +36,7 @@ export function Menu() {
   });
 
   return (
-    <nav ref={navRef} className="p-8 lg:p-0 absolute w-full top-0 left-0">
+    <nav ref={navRef} className="p-8 lg:p-0 absolute w-full top-0 left-0 z-1">
       <ul className={listClassNames}>
         <li>
           <a className="block" href="#">home</a>
@@ -67,23 +67,23 @@ export function Menu() {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            className="stroke-dark-green"
+            className="stroke-white"
             d="M4 7L7 7M20 7L11 7"
-            stroke-width="1.5"
-            stroke-linecap="round"
+            strokeWidth="1.5"
+            strokeLinecap="round"
           />
           <path
-            className="stroke-dark-green"
+            className="stroke-white"
             d="M20 17H17M4 17L13 17"
-            stroke-width="1.5"
-            stroke-linecap="round"
+            strokeWidth="1.5"
+            strokeLinecap="round"
           />
           <path
-            className="stroke-dark-green"
+            className="stroke-white"
             d="M4 12H7L20 12"
             stroke="#1C274C"
-            stroke-width="1.5"
-            stroke-linecap="round"
+            strokeWidth="1.5"
+            strokeLinecap="round"
           />
         </svg>
         <span className="sr-only">Abrir menu</span>
