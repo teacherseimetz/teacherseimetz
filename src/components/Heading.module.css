@@ -2,11 +2,8 @@
   padding: 16px 0;
   margin-bottom: 64px;
 
-  background-color: var(--color-teal);
-  color: var(--color-white);
+  color: var(--color-teal);
 
-  font-size: 32px;
-  text-align: center;
+  font-size: 56px;
   text-transform: lowercase;
-  text-shadow: 1px 1px 10px var(--color-dark-green);
 }

@@ -75,18 +75,13 @@ export function Menu() {
           </a>
         </li>
         <li>
-          <a className="block" href="#material">
-            material
+          <a className="block" href="#lessonplans">
+            lesson plans
           </a>
         </li>
         <li>
-          <a className="block" href="#missao">
-            missão
-          </a>
-        </li>
-        <li>
-          <a className="block" href="#investimento">
-            investimento
+          <a className="block" href="#eventos">
+            eventos
           </a>
         </li>
       </ul>
