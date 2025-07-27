@@ -5,7 +5,7 @@ export function Footer() {
   return (
     <footer className={styles.container}>
       <Wrapper className={styles.wrapper}>
-        <h1>Ficou com alguma dúvida?</h1>
+        <h1 className="font-bold text-4xl lowercase">Ficou com alguma dúvida?</h1>
 
         <nav className={styles.links}>
           <a href="https://instagram.com/teacherseimetz" rel="norel noopener">

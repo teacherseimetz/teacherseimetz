@@ -1,5 +1,6 @@
 .container {
   padding: 86px 0;
+  margin-top: 64px;
 
   background-color: var(--color-dark-green);
   color: var(--color-white);
