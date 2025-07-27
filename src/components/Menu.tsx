@@ -9,7 +9,8 @@ export function Menu() {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   const listClassNames = [
-    "bg-white/50",
+    "bg-white/95",
+    "lg:bg-transparent",
     "flex",
     "flex-col",
     "rounded-lg",
@@ -21,13 +22,18 @@ export function Menu() {
     "lg:gap-6",
     "justify-end",
     "text-dark-green",
+    "lg:text-white",
     "font-bold",
     "transition",
     "duration-300",
     "ease-in-out",
     !isOpen ? "opacity-[0]" : [],
     "lg:opacity-100",
-  ].flatMap(x => x).join(" ");
+    "shadow-sm",
+    "lg:shadow-none",
+  ]
+    .flatMap((x) => x)
+    .join(" ");
 
   const strokeColor = isOpen ? "stroke-dark-green" : "stroke-white";
 
@@ -37,31 +43,55 @@ export function Menu() {
     setIsOpen(false);
   });
 
+  const buttonClassNames = [
+    "lg:hidden",
+    "fixed",
+    "top-12",
+    "right-12",
+    isOpen ? "bg-transparent" : "bg-dark-green/50",
+    "p-1",
+    "rounded-sm",
+  ].join(" ");
+
   return (
-    <nav ref={navRef} className="p-8 lg:p-0 absolute w-full top-0 left-0 z-2">
+    <nav
+      ref={navRef}
+      className="p-8 lg:p-0 fixed lg:absolute w-100 lg:w-full top-0 right-0 z-2"
+    >
       <ul className={listClassNames}>
         <li>
-          <a className="block" href="#">home</a>
+          <a className="block" href="#">
+            home
+          </a>
         </li>
         <li>
-          <a className="block" href="#sobre">sobre mim</a>
+          <a className="block" href="#sobre">
+            sobre mim
+          </a>
         </li>
         <li>
-          <a className="block" href="#aulas">aulas</a>
+          <a className="block" href="#aulas">
+            aulas
+          </a>
         </li>
         <li>
-          <a className="block" href="#material">material</a>
+          <a className="block" href="#material">
+            material
+          </a>
         </li>
         <li>
-          <a className="block" href="#missao">missão</a>
+          <a className="block" href="#missao">
+            missão
+          </a>
         </li>
         <li>
-          <a className="block" href="#investimento">investimento</a>
+          <a className="block" href="#investimento">
+            investimento
+          </a>
         </li>
       </ul>
-      <button className="lg:hidden" onClick={toggleMenu}>
+      <button className={buttonClassNames} onClick={toggleMenu}>
         <svg
-          className="absolute top-12 right-12"
           width={36}
           height={36}
           viewBox="0 0 24 24"

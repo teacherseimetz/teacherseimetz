@@ -24,6 +24,7 @@ export const ButtonLink = ({ children, inverse, ...props }: Props) => {
     "[box-shadow:0px_2px_1px]",
     "active:shadow-none",
     "text-center",
+    "lowercase",
   ]
     .concat(inverse ? styles.inverse : [])
     .join(" ");
