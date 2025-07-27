@@ -1,8 +1,7 @@
 import { About } from "../components/About";
 import { Classes } from "../components/Classes";
 import { Hero } from "../components/Hero";
-import { Material } from "../components/Material";
-import { Mission } from "../components/Mission";
+import { LessonPlans } from "../components/LessonPlans";
 
 export default function Page() {
   return (
@@ -10,8 +9,7 @@ export default function Page() {
       <Hero />
       <About />
       <Classes />
-      <Material />
-      <Mission />
+      <LessonPlans />
     </main>
   );
 }
