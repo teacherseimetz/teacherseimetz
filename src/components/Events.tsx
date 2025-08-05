@@ -11,7 +11,7 @@ export const Events = () => {
           <h1>eventos</h1>
         </Heading>
 
-        <section className="flex flex-col lg:grid grid-cols-2 gap-6">
+        <section className="flex flex-col lg:grid grid-cols-2 gap-4">
           <section className="flex overflow-x-auto lg:grid lg:grid-cols-2 lg:grid-flow-row gap-4">
             <figure className="shrink-0 h-48 w-48 relative">
               <Image
@@ -68,7 +68,7 @@ export const Events = () => {
               />
             </figure>
           </section>
-          <section>
+          <section className="lg:pl-8">
             <p className="pt-8 mb-8">
               Além de aulas e conteúdo para professores, também organizo eventos
               presenciais para promover a prática do inglês. Atualmente os
