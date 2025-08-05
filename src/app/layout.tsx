@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { Menu } from "../components/Menu";
 import { Footer } from "../components/Footer";
 import { Libre_Franklin } from "next/font/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 import "./globals.css";
 
@@ -17,6 +18,7 @@ export default function RootLayout({ children }: Props) {
         {children}
         <Footer />
       </body>
+      <GoogleAnalytics gaId="G-MB02LDKJ1V" />
     </html>
   );
 }
