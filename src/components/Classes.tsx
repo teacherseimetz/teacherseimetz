@@ -72,7 +72,7 @@ export function Classes() {
             <figure className="shrink-0 h-96 w-96 relative mb-10">
               <Image
                 className="rounded-3xl"
-                src="/teacherseimetz/images/smiling-2.jpg"
+                src="/images/smiling-2.jpg"
                 alt="Foto da professora Amanda Seimetz sorrindo, com uma blusa verde e o fundo desfocado"
                 objectFit="cover"
                 fill

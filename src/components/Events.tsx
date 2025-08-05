@@ -16,7 +16,7 @@ export const Events = () => {
             <figure className="shrink-0 h-48 w-48 relative">
               <Image
                 className="rounded-3xl"
-                src="/teacherseimetz/images/events-1.jpg"
+                src="/images/events-1.jpg"
                 alt="Foto da professora Amanda Seimetz sorrindo, com uma blusa verde e o fundo desfocado"
                 objectFit="cover"
                 fill
@@ -25,7 +25,7 @@ export const Events = () => {
             <figure className="shrink-0 h-48 w-48 relative">
               <Image
                 className="rounded-3xl"
-                src="/teacherseimetz/images/events-2.jpg"
+                src="/images/events-2.jpg"
                 alt="Foto da professora Amanda Seimetz sorrindo, com uma blusa verde e o fundo desfocado"
                 objectFit="cover"
                 fill
@@ -34,7 +34,7 @@ export const Events = () => {
             <figure className="shrink-0 h-48 w-48 relative">
               <Image
                 className="rounded-3xl"
-                src="/teacherseimetz/images/events-3.jpg"
+                src="/images/events-3.jpg"
                 alt="Foto da professora Amanda Seimetz sorrindo, com uma blusa verde e o fundo desfocado"
                 objectFit="cover"
                 fill
@@ -43,7 +43,7 @@ export const Events = () => {
             <figure className="shrink-0 h-48 w-48 relative">
               <Image
                 className="rounded-3xl"
-                src="/teacherseimetz/images/events-4.jpg"
+                src="/images/events-4.jpg"
                 alt="Foto da professora Amanda Seimetz sorrindo, com uma blusa verde e o fundo desfocado"
                 objectFit="cover"
                 fill
@@ -52,7 +52,7 @@ export const Events = () => {
             <figure className="shrink-0 h-48 w-48 relative">
               <Image
                 className="rounded-3xl"
-                src="/teacherseimetz/images/events-5.jpg"
+                src="/images/events-5.jpg"
                 alt="Foto da professora Amanda Seimetz sorrindo, com uma blusa verde e o fundo desfocado"
                 objectFit="cover"
                 fill
@@ -61,7 +61,7 @@ export const Events = () => {
             <figure className="shrink-0 h-48 w-48 relative">
               <Image
                 className="rounded-3xl"
-                src="/teacherseimetz/images/events-6.jpg"
+                src="/images/events-6.jpg"
                 alt="Foto da professora Amanda Seimetz sorrindo, com uma blusa verde e o fundo desfocado"
                 objectFit="cover"
                 fill

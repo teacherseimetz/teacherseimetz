@@ -23,7 +23,7 @@ export const LessonPlans = () => {
             <figure className="shrink-0 h-64 w-64 relative mb-10">
               <Image
                 alt="Imagem da aula de places to visit in Barcelona"
-                src="/teacherseimetz/images/places-to-visit-in-barcelona.jpg"
+                src="/images/places-to-visit-in-barcelona.jpg"
                 objectFit="cover"
                 objectPosition="0 0"
                 fill
@@ -42,7 +42,7 @@ export const LessonPlans = () => {
             <figure className="shrink-0 h-64 w-64 relative mb-10">
               <Image
                 alt="Imagem da aula de painting analysis"
-                src="/teacherseimetz/images/painting-analysis.jpg"
+                src="/images/painting-analysis.jpg"
                 objectFit="cover"
                 objectPosition="0 0"
                 fill
