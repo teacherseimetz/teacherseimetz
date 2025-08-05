@@ -11,10 +11,10 @@ export function Footer() {
           </h1>
 
           <nav className={styles.links}>
-            <a href="https://instagram.com/teacherseimetz" rel="norel noopener">
+            <a href="https://instagram.com/teacherseimetz" rel="norel noopener" target="_blank">
               @teacherseimetz
             </a>
-            <a href="mailto:teacherseimetz@gmail.com" rel="norel noopener">
+            <a href="mailto:teacherseimetz@gmail.com" rel="norel noopener" target="_blank">
               teacherseimetz@gmail.com
             </a>
           </nav>

@@ -45,22 +45,23 @@ export function Classes() {
 
         <p className="mb-8">
           As aulas são elaboradas de acordo com as necessidades individuais de
-          cada aluno.{" "}
-          Minha abordagem pedagógica visa criar momentos de aprendizado que te
-          ajudem a atingir seus objetivos, independentemente de quais sejam.
-          Isso significa que não me concentro apenas em uma única habilidade!
-          Sempre planejo aulas que possibilitam a prática de diversas
-          competências de maneira fluida e contextualizada.
+          cada aluno. Minha abordagem pedagógica visa criar momentos de
+          aprendizado que te ajudem a atingir seus objetivos, independentemente
+          de quais sejam. Isso significa que não me concentro apenas em uma
+          única habilidade! Sempre planejo aulas que possibilitam a prática de
+          diversas competências de maneira fluida e contextualizada.
         </p>
 
         <p className="mb-8">
-          Atualmente, meu foco está em alunos nos níveis{" "}
-          intermediário e avançado que desejam aprender e aprimorar o
-          inglês para o cotidiano.
+          Atualmente, meu foco está em alunos nos níveis intermediário e
+          avançado que desejam aprender e aprimorar o inglês para o cotidiano.
         </p>
 
         <div className="flex justify-center mb-10">
-          <ButtonLink href="https://teacherseimetz.notion.site/12ab3dba55da80508dd1eb23da886b42?pvs=105">
+          <ButtonLink
+            href="https://teacherseimetz.notion.site/12ab3dba55da80508dd1eb23da886b42?pvs=105"
+            target="_blank"
+          >
             Quero fazer aulas de inglês
           </ButtonLink>
         </div>
@@ -78,7 +79,10 @@ export function Classes() {
             </figure>
 
             <div className="flex justify-center mb-10">
-              <ButtonLink href="https://teacherseimetz.notion.site/12ab3dba55da80508dd1eb23da886b42?pvs=105">
+              <ButtonLink
+                href="https://teacherseimetz.notion.site/12ab3dba55da80508dd1eb23da886b42?pvs=105"
+                target="_blank"
+              >
                 Quero fazer aulas de inglês
               </ButtonLink>
             </div>

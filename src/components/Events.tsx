@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export const Events = () => {
   return (
-    <section id="events">
+    <section id="eventos">
       <Wrapper variant="small">
         <Heading>
           <h1>eventos</h1>

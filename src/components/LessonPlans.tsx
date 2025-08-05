@@ -55,7 +55,7 @@ export const LessonPlans = () => {
 
           <section className="flex flex-col justify-center">
             <span className="inline-block my-4">
-              <ButtonLink href="https://teacherseimetz.notion.site/Cat-logo-de-Aulas-23cb3dba55da80bba1b2f1524f689a4a?source=copy_link" className="block">
+              <ButtonLink href="https://teacherseimetz.notion.site/Cat-logo-de-Aulas-23cb3dba55da80bba1b2f1524f689a4a?source=copy_link" className="block" target="_blank">
                 Catálogo completo
               </ButtonLink>
             </span>
