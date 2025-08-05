@@ -11,7 +11,7 @@ export const Events = () => {
           <h1>eventos</h1>
         </Heading>
 
-        <section className="flex flex-col lg:grid grid-cols-2 gap-4">
+        <section className="flex flex-col lg:grid grid-cols-2 gap-8">
           <section className="flex overflow-x-auto lg:grid lg:grid-cols-2 lg:grid-flow-row gap-4">
             <figure className="shrink-0 h-48 w-48 relative">
               <Image
@@ -76,14 +76,11 @@ export const Events = () => {
             </p>
 
             <div className="mb-8">
-              <ButtonLink>Próximos eventos</ButtonLink>
+              <ButtonLink href="https://instagram.com/teacherseimetz" rel="norel noopener" target="_blank">Próximos eventos</ButtonLink>
             </div>
 
             <h1 className="font-bold">Como participar?</h1>
-            <p>
-              Preencha o formulário abaixo e vou te convidar para próxima
-              edição!
-            </p>
+            <p>Fique de olho nas minhas redes sociais para saber a data e o local do próximo evento.</p>
           </section>
         </section>
       </Wrapper>

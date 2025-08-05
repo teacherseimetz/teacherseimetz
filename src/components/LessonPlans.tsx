@@ -1,4 +1,5 @@
 import { ButtonLink } from "./ButtonLink";
+import { Divider } from "./Divider";
 import { Heading } from "./Heading";
 import { Wrapper } from "./Wrapper";
 import Image from "next/image";
@@ -17,7 +18,7 @@ export const LessonPlans = () => {
           últumos lançamentos e consulte o catálogo completo:
         </p>
 
-        <section className="flex flex-col lg:grid grid-cols-3 gap-4">
+        <section className="flex flex-col lg:grid grid-cols-3 gap-16">
           <article className="flex flex-col items-center text-center">
             <figure className="shrink-0 h-64 w-64 relative mb-10">
               <Image
@@ -30,7 +31,7 @@ export const LessonPlans = () => {
               />
             </figure>
             <h1 className="font-bold text-2xl mb-4">Europe pack #1</h1>
-            <p className="mb-4">
+            <p className="mb-4 text-sm">
               Worksheets e slides que abordam tópicos como pontos turísticos,
               comida típica e aspectos culturais de 10 cidades diferentes.
             </p>
@@ -49,16 +50,24 @@ export const LessonPlans = () => {
               />
             </figure>
             <h1 className="font-bold text-2xl mb-4">Painting Analysis</h1>
-            <p className="mb-4">Slides que guiam a análise de obras de arte.</p>
+            <p className="mb-4 text-sm">
+              Slides que guiam a análise de obras de arte.
+            </p>
             <span className="font-bold text-2xl">R$25</span>
           </article>
 
           <section className="flex flex-col justify-center">
-            <span className="inline-block my-4">
-              <ButtonLink href="https://teacherseimetz.notion.site/Cat-logo-de-Aulas-23cb3dba55da80bba1b2f1524f689a4a?source=copy_link" className="block" target="_blank">
-                Catálogo completo
-              </ButtonLink>
-            </span>
+            <div className="lg:text-center">
+              <span className="inline-block my-4">
+                <ButtonLink
+                  href="https://teacherseimetz.notion.site/Cat-logo-de-Aulas-23cb3dba55da80bba1b2f1524f689a4a?source=copy_link"
+                  className="block"
+                  target="_blank"
+                >
+                  Catálogo completo
+                </ButtonLink>
+              </span>
+            </div>
 
             <h1 className="font-bold mb-4">Como comprar?</h1>
 
@@ -75,6 +84,7 @@ export const LessonPlans = () => {
             </p>
           </section>
         </section>
+        <Divider />
       </Wrapper>
     </section>
   );

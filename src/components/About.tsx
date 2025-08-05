@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Wrapper } from "./Wrapper";
 import { Highlight } from "./Highlight";
+import { Divider } from "./Divider";
 
 export function About() {
   return (
@@ -34,6 +35,7 @@ export function About() {
           </Highlight>
         </div>
       </section>
+      <Divider />
     </Wrapper>
   );
 }

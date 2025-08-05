@@ -1,4 +1,5 @@
 import { ButtonLink } from "./ButtonLink";
+import { Divider } from "./Divider";
 import { Heading } from "./Heading";
 import { Highlight } from "./Highlight";
 import { Headphone } from "./icons/Headphone";
@@ -57,7 +58,7 @@ export function Classes() {
           avançado que desejam aprender e aprimorar o inglês para o cotidiano.
         </p>
 
-        <div className="flex justify-center mb-10">
+        <div className="flex justify-center mb-20">
           <ButtonLink
             href="https://teacherseimetz.notion.site/12ab3dba55da80508dd1eb23da886b42?pvs=105"
             target="_blank"
@@ -128,6 +129,7 @@ export function Classes() {
             </ul>
           </div>
         </section>
+        <Divider />
       </Wrapper>
     </section>
   );
