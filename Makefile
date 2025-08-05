@@ -9,5 +9,6 @@ publish: build
 	git rm $$(git ls-files -- ':!.gitignore')
 	cp -R out/* ./
 	echo "" > .nojekyll
+	echo "teacherseimetz.com.br" > CNAME
 	git add .
 	@echo "Ready to commit and push"
