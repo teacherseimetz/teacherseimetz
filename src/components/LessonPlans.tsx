@@ -35,7 +35,6 @@ export const LessonPlans = () => {
               Worksheets e slides que abordam tópicos como pontos turísticos,
               comida típica e aspectos culturais de 10 cidades diferentes.
             </p>
-            <span className="font-bold text-2xl">R$40</span>
           </article>
 
           <article className="flex flex-col items-center text-center">
@@ -53,7 +52,6 @@ export const LessonPlans = () => {
             <p className="mb-4 text-sm">
               Slides que guiam a análise de obras de arte.
             </p>
-            <span className="font-bold text-2xl">R$25</span>
           </article>
 
           <section className="flex flex-col justify-center">
