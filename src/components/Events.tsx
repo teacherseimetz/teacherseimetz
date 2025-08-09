@@ -17,7 +17,7 @@ export const Events = () => {
               <Image
                 className="rounded-3xl"
                 src="/images/events-1.jpg"
-                alt="Foto da professora Amanda Seimetz sorrindo, com uma blusa verde e o fundo desfocado"
+                alt="Foto da professora Amanda Seimetz sorrindo, com um lápis na mão, uma blusa verde e o fundo desfocado"
                 objectFit="cover"
                 fill
               />
@@ -26,7 +26,7 @@ export const Events = () => {
               <Image
                 className="rounded-3xl"
                 src="/images/events-2.jpg"
-                alt="Foto da professora Amanda Seimetz sorrindo, com uma blusa verde e o fundo desfocado"
+                alt="Foto de uma atividade sendo realizada, com um computador mostrando o slide explicando como fazer a atividade"
                 objectFit="cover"
                 fill
               />
@@ -35,7 +35,7 @@ export const Events = () => {
               <Image
                 className="rounded-3xl"
                 src="/images/events-3.jpg"
-                alt="Foto da professora Amanda Seimetz sorrindo, com uma blusa verde e o fundo desfocado"
+                alt="Foto de uma folha com a atividade who am I?"
                 objectFit="cover"
                 fill
               />
@@ -44,7 +44,7 @@ export const Events = () => {
               <Image
                 className="rounded-3xl"
                 src="/images/events-4.jpg"
-                alt="Foto da professora Amanda Seimetz sorrindo, com uma blusa verde e o fundo desfocado"
+                alt="Foto de uma pessoa segurando um quadro dizendo group 1 winners"
                 objectFit="cover"
                 fill
               />
@@ -53,7 +53,7 @@ export const Events = () => {
               <Image
                 className="rounded-3xl"
                 src="/images/events-5.jpg"
-                alt="Foto da professora Amanda Seimetz sorrindo, com uma blusa verde e o fundo desfocado"
+                alt="Foto de uma etiqueta para identificação de nome, com o nome Scarlett Johansson escrito"
                 objectFit="cover"
                 fill
               />
@@ -62,7 +62,7 @@ export const Events = () => {
               <Image
                 className="rounded-3xl"
                 src="/images/events-6.jpg"
-                alt="Foto da professora Amanda Seimetz sorrindo, com uma blusa verde e o fundo desfocado"
+                alt="Foto de uma pessoa segurando um lápis, próxima a escrever em uma folha de atividades"
                 objectFit="cover"
                 fill
               />
