@@ -8,7 +8,7 @@ dev:
 	npm run dev
 
 publish: build
-	git checkout public
+	git checkout public --
 	git rm $$(git ls-files -- ':!.gitignore')
 	cp -R out/* ./
 	echo "" > .nojekyll
