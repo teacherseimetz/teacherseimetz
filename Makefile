@@ -14,4 +14,5 @@ publish: build
 	echo "" > .nojekyll
 	echo "teacherseimetz.com.br" > CNAME
 	git add .
-	@echo "Ready to commit and push"
+	git commit -m "Rebundle"
+	@echo "Ready to push"
